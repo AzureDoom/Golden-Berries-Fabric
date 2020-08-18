@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "goldenberry",
+  "version": "${version}",
+
+  "name": "Golden Berry Mod",
+  "description": "Adds a Golden Berry that is similar to the Golden Carrot.",
+  "authors": [
+    "AzureDoomC,mmg28rtt"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/goldenberry/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mod.azure.goldenberry.GoldenBerryMod"
+    ]
+  },
+  "mixins": [
+    "goldenberry.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
