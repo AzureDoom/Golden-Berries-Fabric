@@ -22,10 +22,6 @@
       "mod.azure.goldenberry.GoldenBerryMod"
     ]
   },
-  "mixins": [
-    "goldenberry.mixins.json"
-  ],
-
   "depends": {
 	"fabricloader": ">=0.14.8",
     "fabric": "*",
